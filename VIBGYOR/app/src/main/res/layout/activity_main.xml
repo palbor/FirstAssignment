@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity">
+
+    <TextView android:background="@color/violet"
+        android:id="@+id/v"
+     android:layout_width="57dp"
+        android:layout_height="match_parent" />
+    <TextView android:background="@color/indigo"
+        android:id="@+id/i"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/b"
+        android:layout_toStartOf="@+id/b" />
+    <TextView android:background="@color/blue"
+        android:id="@+id/b"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/g"
+        android:layout_toStartOf="@+id/g" />
+    <TextView android:background="@color/green"
+        android:id="@+id/g"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/y"
+        android:layout_toStartOf="@+id/y" />
+    <TextView android:background="@color/yellow"
+        android:id="@+id/y"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/o"
+        android:layout_toStartOf="@+id/o" />
+    <TextView android:background="@color/orange"
+        android:id="@+id/o"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/r"
+        android:layout_toStartOf="@+id/r" />
+    <TextView android:background="@color/red"
+        android:id="@+id/r"
+        android:layout_width="57dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
